@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pemanfaatan Sampah Organik dalam Bidang Pertanian</title>
+    <style>
+        /* CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #4CAF50;
+        }
+        main {
+            padding: 20px;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #4CAF50;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+    <script>
+        // JavaScript
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach((section) => {
+                section.style.display = (section.id === sectionId) ? 'block' : 'none';
+            });
+        }
+        function showAlert() {
+            alert("Dapatkan informasi terkini mengenai pemanfaatan sampah organik!");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Pemanfaatan Sampah Organik dalam Bidang Pertanian</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home" onclick="showSection('home')">Home</a></li>
+            <li><a href="#content" onclick="showSection('content')">Content</a></li>
+            <li><a href="#about" onclick="showSection('about')">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <h2>Selamat Datang di Website Kami!</h2>
+            <p>Website ini memberikan informasi mengenai pemanfaatan sampah organik untuk mendukung bidang pertanian yang berkelanjutan.</p>
+            <p>Pemanfaatan sampah organik di bidang pertanian berperan penting dalam meningkatkan keberlanjutan dan kesuburan tanah. Sampah organik, seperti sisa makanan, dedaunan, dan kotoran hewan, dapat diolah menjadi kompos melalui proses dekomposisi alami. Kompos ini berfungsi sebagai pupuk organik yang kaya akan unsur hara seperti nitrogen, fosfor, dan kalium, yang dibutuhkan tanaman.</p>
+            <p>Selain itu, sampah organik juga dapat dimanfaatkan untuk membuat pupuk cair (contoh: lindi kompos) dan biogas. Pupuk cair berguna untuk memperbaiki kesuburan tanah dan mendukung pertumbuhan tanaman. Di sisi lain, biogas dari sampah organik berfungsi sebagai sumber energi alternatif di pedesaan. Dengan memanfaatkan sampah organik, pertanian dapat mengurangi ketergantungan pada pupuk kimia, mengurangi limbah, serta menjaga kesehatan lingkungan.</p>
+            <button onclick="showAlert()">Dapatkan Informasi Terkini</button>
+        </section>
+        
+        <!-- Content Section -->
+        <section id="content" class="section" style="display: none;">
+            <h2>Informasi dan Manfaat Sampah Organik</h2>
+            <p>Sampah organik dapat digunakan untuk membuat pupuk kompos yang bermanfaat bagi pertanian.</p>
+            <img src="kompos.jpeg" alt="Pupuk Kompos" style="width: 100%; max-width: 400px;">
+            <table>
+                <tr><th>Jenis Sampah</th><th>Manfaat</th></tr>
+                <tr><td>Sisa Sayuran</td><td>Pupuk Kompos</td></tr>
+                <tr><td>Kulit Buah</td><td>Penyubur Tanah</td></tr>
+                <tr><td>Daun Kering</td><td>Penyimpan Air</td></tr>
+            </table>
+        </section>
+        
+        <!-- About Section -->
+        <section id="about" class="section" style="display: none;">
+            <h2>Kontak Personal</h2>
+            <p>Nama: Briyan Dwi Septian</p>
+            <p>Email: <a href="briyandwi112@gmail.com">briyandwi112@gmail.com</a></p>
+            <p>Instagram: <a href="https://instagram.com/brydwy_">brydwy_</a></p>
+            <p>Telepon: 0857-2526-4640</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Pemanfaatan Sampah Organik</p>
+    </footer>
+</body>
+</html>

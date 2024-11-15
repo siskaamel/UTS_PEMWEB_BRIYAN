@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        /* CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        #hero {
+            background: #333;
+            color: #fff;
+            padding: 100px 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            color: #555;
+            margin: 10px 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .project-list a {
+            display: block;
+            margin: 5px 0;
+            padding: 10px;
+            border: 1px solid #000000;
+            border-radius: 5px;
+            background-color: #ffffff;
+        }
+
+        /* Styling tombol Back to Top  */
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 15px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        // JavaScript untuk Back to Top fungsi tombol
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</head>
+<body>
+
+    <!-- Hero -->
+    <section id="hero">
+        <h1>Halo, Saya Briyan Dwi Septian</h1>
+        <p>Mahasiswa</p>
+    </section>
+
+    <!-- About Me -->
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>Saya adalah Mahasiswa semester 3 D4 Teknik Informatika di Politeknik Harapan Bersama Tegal.</p>
+        <h3>Skills</h3>
+        <ul>
+            <li>Menguasai Microsoft Office</li>
+            <li>Menguasai Wordpress</li>
+            <li>Menguasai Figma</li>
+        </ul>
+        <h3>Pengalaman</h3>
+        <p>Pengalaman kerja PKL sebagai Teknisi Jaringan di SMPN 10 Tegal</p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projek Saya</h2>
+        <div class="project-list">
+            <a href="https://briyandwiseptiantipoltektegal.wordpress.com/">Weblog</a>
+            <a href="https://www.notion.so/Dokumentasi-UX-Writing-Dana-Fitur-Sidik-Jari-d3752daa042c4ac7bfc3d3e831017d2a?pvs=4">Prototype Sidik Jari Aplikasi Dana</a>
+        </div>
+        <h3>Pelatihan</h3>
+        <ul>
+            <li>Mengikuti Workshop Mobile Development</li>
+            <li>Mengikuti Kursus Huawei Matriks Dasar</li>
+        </ul>
+    </section>
+
+    <!-- Contact Me Section -->
+    <section id="contact">
+        <h2>Hubungi Saya</h2>
+        <p>Hubungi saya melalui media sosial berikut:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/briyan-dwi-septian-66187029a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></li>
+            <li><a href="https://instagram.com/brydwy_">Instagram</a></li>
+            <li><a href="https://www.youtube.com/@briyandwi860">Youtube</a></li>
+        </ul>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="scrollToTop()">Kembali ke Atas</button>
+
+</body>
+</html>
